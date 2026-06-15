@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Flora Rebelde</title>
+
+    <link rel="stylesheet" href="css/flora.css">
+
+    <link rel="icon" type="image/png" href="img/logo-flora.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <script defer src="js/flora.js"></script>
+
+</head>
+
+<body>
+
+    <!-- BOTÓN VOLVER -->
+
+    <a href="index.html" class="boton-volver">
+
+        <span class="material-symbols-outlined">
+            arrow_back
+        </span>
+
+        Volver al Portfolio
+
+    </a>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <h1>
+
+            Flora Rebelde
+
+            <span class="hoja">
+            
+            </span>
+
+        </h1>
+
+        <div class="subtitulo">
+
+            <span class="linea"></span>
+
+            <p>Proyecto Final de Carrera</p>
+
+            <span class="linea"></span>
+
+        </div>
+
+        <p class="descripcion">
+
+            Aplicación móvil desarrollada con Flutter y Firebase para identificar
+            especies vegetales de la Patagonia.
+
+            El modelo de Inteligencia Artificial fue diseñado y entrenado utilizando
+            fotografías reales de flora regional.
+
+        </p>
+
+    </section>
+
+    <!-- CONTENIDO -->
+
+    <main class="contenido">
+
+        <!-- TELEFONO -->
+
+        <section class="phone-showcase">
+
+            <div class="phone-frame">
+
+                <img
+                    id="slide"
+                    src="img/f1.jpg"
+                    alt="Captura de pantalla Flora Rebelde">
+
+            </div>
+
+            <div class="slider-buttons">
+
+                <button onclick="anterior()">
+
+                    <span class="material-symbols-outlined">
+                        arrow_back
+                    </span>
+
+                </button>
+
+                <button onclick="siguiente()">
+
+                    <span class="material-symbols-outlined">
+                        arrow_forward
+                    </span>
+
+                </button>
+
+            </div>
+
+            <a href="apk/FloraRebelde.apk"
+               class="boton-demo"
+               download>
+
+                <span class="material-symbols-outlined">
+                    download
+                </span>
+
+                Descargar Demo APK
+
+            </a>
+
+            <p class="nota-demo">
+
+                <span class="material-symbols-outlined">
+                    android
+                </span>
+
+                Demo disponible para Android
+
+            </p>
+
+        </section>
+
+        <!-- FEATURES -->
+
+        <section class="features">
+
+            <div class="feature-card">
+
+                <div class="icon-circle">
+
+                    <span class="material-symbols-outlined">
+                        smart_toy
+                    </span>
+
+                </div>
+
+                <h3>IA Propia</h3>
+
+                <p>
+
+                    Modelo entrenado con fotografías reales de flora
+                    patagónica.
+
+                </p>
+
+                <div class="mini-linea"></div>
+
+            </div>
+
+            <div class="feature-card">
+
+                <div class="icon-circle">
+
+                    <span class="material-symbols-outlined">
+                        eco
+                    </span>
+
+                </div>
+
+                <h3>Reconocimiento</h3>
+
+                <p>
+
+                    Identificación automática de especies vegetales
+                    regionales.
+
+                </p>
+
+                <div class="mini-linea"></div>
+
+            </div>
+
+            <div class="feature-card">
+
+                <div class="icon-circle">
+
+                    <span class="material-symbols-outlined">
+                        smartphone
+                    </span>
+
+                </div>
+
+                <h3>App Móvil</h3>
+
+                <p>
+
+                    Desarrollada desde cero utilizando Flutter y Firebase.
+
+                </p>
+
+                <div class="mini-linea"></div>
+
+            </div>
+
+            <div class="feature-card">
+
+                <div class="icon-circle">
+
+                    <span class="material-symbols-outlined">
+                        menu_book
+                    </span>
+
+                </div>
+
+                <h3>Información Botánica</h3>
+
+                <p>
+
+                    Consulta de información detallada sobre cada especie
+                    identificada.
+
+                </p>
+
+                <div class="mini-linea"></div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <span class="footer-text">
+            Camila Aballay · 2026
+        </span>
+
+        <a href="https://github.com/TU_USUARIO/FloraRebelde"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="GitHub">
+
+            <i class="fa-brands fa-github"></i>
+
+        </a>
+
+        <a href="mailto:tuemail@gmail.com"
+           aria-label="Contacto">
+
+            <span class="material-symbols-outlined">
+                mail
+            </span>
+
+        </a>
+
+    </footer>
+
+</body>
+
+</html>
