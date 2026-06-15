@@ -297,37 +297,60 @@ h1{
 
 @media(max-width:600px){
 
-    body{
-        padding:15px;
+   .card{
+    padding:20px;
+}
+
+h1{
+    font-size:1.9rem;
+    line-height:1.15;
+}
+
+.descripcion{
+    font-size:.9rem;
+    line-height:1.5;
+    margin-bottom:15px;
+}
+
+.nombre{
+    font-size:1.2rem;
+    padding:10px 22px;
+    margin-bottom:18px;
+}
+
+.evento{
+    padding:15px;
+    gap:10px;
+      flex-direction:column;
+}
+
+.dato .material-symbols-outlined{
+    font-size:26px;
+}
+
+.dato h3{
+    font-size:1.1rem;
+}
+
+.dato p{
+    font-size:.95rem;
+}
+
+.botones{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:12px;
     }
 
-    .card{
-        padding:25px;
-    }
-
-    h1{
-        font-size:2rem;
-    }
-
-    .subtitulo{
-        font-size:1rem;
-    }
-
-    .descripcion{
+    .botones a{
+        width:100%;
+        max-width:280px;
+        text-align:center;
+        padding:14px 20px;
         font-size:.95rem;
-    }
-
-    .nombre{
-        font-size:1.3rem;
-        padding:10px 25px;
-    }
-
-    .evento{
-        padding:20px;
-    }
-
-    .dato p{
-        font-size:.9rem;
+        border-radius:20px;
     }
 }
 .confetti{
