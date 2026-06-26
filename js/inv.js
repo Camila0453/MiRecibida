@@ -27,21 +27,24 @@ if (botonCerrar && dinoBox) {
   
     crearConfetti();
 
-const abrir = document.getElementById("abrirModal");
-const cerrar = document.getElementById("cerrarModal");
-const modal = document.getElementById("modalMensaje");
+document.addEventListener("DOMContentLoaded", () => {
 
-abrir.addEventListener("click", function(e){
-    e.preventDefault();
-    modal.classList.add("mostrar");
-});
+    const abrir = document.getElementById("abrirModal");
+    const cerrar = document.getElementById("cerrarModal");
+    const modal = document.getElementById("modalMensaje");
 
-cerrar.addEventListener("click", function(){
-    modal.classList.remove("mostrar");
-});
+    abrir.addEventListener("click", function(e){
+        console.log("hola")
+    });
 
-window.addEventListener("click", function(e){
-    if(e.target === modal){
+    cerrar.addEventListener("click", function(){
         modal.classList.remove("mostrar");
-    }
+    });
+
+    window.addEventListener("click", function(e){
+        if(e.target === modal){
+            modal.classList.remove("mostrar");
+        }
+    });
+
 });
