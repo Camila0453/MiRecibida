@@ -34,7 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const modal = document.getElementById("modalMensaje");
 
     abrir.addEventListener("click", function(e){
-        console.log("hola")
+        e.preventDefault();
+        modal.classList.add("mostrar");
     });
 
     cerrar.addEventListener("click", function(){
